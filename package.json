@@ -6,8 +6,7 @@
   "homepage": "https://hmlu36.github.io/CalligraphyDictionary/",
   "scripts": {
 	//"server": "webpack-dev-server",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build&&gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
