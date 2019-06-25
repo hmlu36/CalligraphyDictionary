@@ -5,12 +5,9 @@
   "main": "index.js",
   "homepage": "https://hmlu36.github.io/CalligraphyDictionary/",
   "scripts": {
-    "start": "react-scripts start",
+	//"server": "webpack-dev-server",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
@@ -21,12 +18,12 @@
     "babel-loader": "^8.0.6",
     "eslint": "^5.16.0",
     "eslint-plugin-react": "^7.13.0",
+    "gh-pages": "^2.0.1",
     "webpack": "^4.32.2",
     "webpack-dev-server": "^3.4.1"
   },
   "dependencies": {
     "babel-preset-es2015": "^6.24.1",
-    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "webpack-cli": "^3.3.2"
