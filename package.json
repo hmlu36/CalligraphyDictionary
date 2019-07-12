@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://hmlu36.github.io/CalligraphyDictionary",
+  "homepage": "https://hmlu36.github.io/CalligraphyDictionary/",
   "scripts":{
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build"
    },
   "author": "",
   "license": "ISC",
